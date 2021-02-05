@@ -7,10 +7,7 @@ int main() {
 	int n;int x=10,t;
 	cin>>n;
 	while(n%x!=0)
-	{
-	   
-	    x--;
-	}
+	x--;
 	cout<<x;
 	return 0;
 }
